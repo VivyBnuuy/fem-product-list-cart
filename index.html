@@ -3,19 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Title. Made with HTML5, Sass/SCSS and JavaScript.">
+    <meta name="description" content="Frontend Mentor project - Product List with Cart. Made with HTML5, Sass/SCSS and JavaScript.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100;300;400;700&display=swap" rel="stylesheet"> 
-    <link rel="icon" href="assets/favicon-32x32.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="assets/images/favicon-32x32.png" />
     <link rel="stylesheet" href="dist/style.css">
 
-    <title>Title</title>
+    <title>Frontend Mentor - Product List with Cart</title>
   </head>
   <body>
     <main>
-     
+      <div class="wrapper">
+        <div class="contents">
+
+          <!-- Header -->
+          <header>
+            <h1 class="contents__header">Desserts</h1>
+          </header>
+
+          <!-- Items container -->
+          <div class="items-cont">
+
+            <!-- Item begin -->
+            <div class="item">
+              <!-- Item image -->
+              <div class="item__img">
+    
+              </div>
+    
+              <!-- Item button -->
+              <div class="item__btn">
+                <svg class="item__btn-img">
+                  <image xlink:href="assets/images/icon-add-to-cart.svg" width="128" height="128"></image>
+                </svg>
+
+                <span class="item__btn__add">Add to Cart</span>
+              </div>
+    
+              <!-- Item information -->
+              <div class="item__info">
+                <span class="items__info-title-short">
+    
+                </span>
+    
+                <span class="item__info-title-long">
+    
+                </span>
+    
+                <span class="item__info-cost">
+    
+                </span>
+              </div>
+
+            </div>
+
+          </div>
+          
+          <!-- Item end -->
+
+          <!-- Cart begin -->
+          <div class="cart">
+
+              <span class="cart__header">Your Cart</span>
+              <span class="cart__quantity">(0)</span>
+
+            <!-- Image -->
+            <svg class="cart__empty-img">
+              <image xlink:href="assets/images/illustration-empty-cart.svg" width="128" height="128"></image>
+            </svg>
+
+            <!-- Cart empty text -->
+            <span class="card__empty-text">
+              Your added items will appear here.
+            </span>
+
+          </div>
+
+        <!-- contents end -->
+        </div>
+      
+      <!-- wrapper end -->
+      </div>
     </main>
     <script src="dist/js/main.js"></script>
   </body>
