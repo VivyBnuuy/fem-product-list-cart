@@ -19,9 +19,7 @@
       <div class="wrapper">
         <div class="contents">
 
-          <header>
-            <h1 class="contents__header">Desserts</h1>
-          </header>
+          <h1 class="contents__header">Desserts</h1>
 
           <!-- Items container begin -->
           <div class="items-cont">
@@ -29,14 +27,12 @@
             <!-- Item begin -->
             <div class="item">
               <!-- Item image -->
-              <div class="item__img">
-    
-              </div>
+              <img src="assets/images/image-baklava-desktop.jpg" class="item__img">
     
               <!-- Item button begin -->
               <div class="item__btn">
-                <svg class="item__btn-img">
-                  <image xlink:href="assets/images/icon-add-to-cart.svg" width="128" height="128"></image>
+                <svg class="item__btn__img">
+                  <image xlink:href="assets/images/icon-add-to-cart.svg" width="20" height="20"></image>
                 </svg>
 
                 <span class="item__btn__add">Add to Cart</span>
@@ -65,20 +61,21 @@
     
               <!-- Item information -->
               <div class="item__info">
-                <span class="items__info-title-short">
-    
+                <span class="item__info__title-short">
+                  Waffle
                 </span>
     
-                <span class="item__info-title-long">
-    
+                <span class="item__info__title-long">
+                  Waffle with Berries
                 </span>
     
-                <span class="item__info-cost">
-    
+                <span class="item__info__cost">
+                  $6.50
                 </span>
               </div>
 
             </div>
+            
             <!-- Item end -->
 
           </div>
@@ -96,44 +93,46 @@
             </svg>
 
             <!-- Cart empty text -->
-            <span class="card__empty-text">
+            <span class="cart__empty-text">
               Your added items will appear here.
             </span>
 
-            <!-- Cart items begin -->
-            <div class="cart__item">
-              <span class="cart__item__name"></span>
-              <span class="cart__item__quantity"></span>
-              <span class="cart__item__cost-ind"></span>
-              <span class="cart__items__cost-total"></span>
+            <div class="cart__items-container">
+              <!-- Cart items begin -->
+              <div class="cart__item">
+                <span class="cart__item__name"></span>
+                <span class="cart__item__quantity"></span>
+                <span class="cart__item__cost-ind"></span>
+                <span class="cart__items__cost-total"></span>
 
-              <svg class="cart__item__remove--img">
-                <image xlink:href="assets/images/icon-remove-item.svg" width="128" height="128"></image>
-              </svg>
-  
+                <svg class="cart__item__remove--img">
+                  <image xlink:href="assets/images/icon-remove-item.svg" width="128" height="128"></image>
+                </svg>
+    
+              </div>
+              <!-- Cart items end -->
+
+              <!-- Cart info begin -->
+              <div class="cart__total">
+                <span class="cart__total__span">Order Total</span>
+                <span class="cart__total__amount"></span>
+              </div>
+
+              <div class="cart__note">
+                <svg class="cart__note__img">
+                  <image xlink:href="assets/images/icon-carbon-neutral.svg" width="128" height="128"></image>
+                </svg>
+
+                <span class="cart__note__span-reg">This is a</span>
+                <span class="cart__note__span-bold">carbon-neutral</span>
+                <span class="cart__note__span-reg">delivery</span>
+              </div>
+
+              <div class="cart__btn">
+                Confirm Order
+              </div>
+              <!-- Cart info end -->
             </div>
-            <!-- Cart items end -->
-
-            <!-- Cart info begin -->
-            <div class="cart__total">
-              <span class="cart__total__span">Order Total</span>
-              <span class="cart__total__amount"></span>
-            </div>
-
-            <div class="cart__note">
-              <svg class="cart__note__img">
-                <image xlink:href="assets/images/icon-carbon-neutral.svg" width="128" height="128"></image>
-              </svg>
-
-              <span class="cart__note__span-reg">This is a</span>
-              <span class="cart__note__span-bold">carbon-neutral</span>
-              <span class="cart__note__span-reg">delivery</span>
-            </div>
-
-            <div class="cart__btn">
-              Confirm Order
-            </div>
-            <!-- Cart info end -->
           </div>
           <!-- cart end -->
 
