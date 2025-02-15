@@ -2,7 +2,54 @@
 @use "../global/variables" as var;
 
 // Font sizes
+// ---------- Set 1
+$set1-size: util.rem(40);
+$set1-weight: 700;
+$set1-lh: 120%;
+$set1-ls: 0%;
 
-// Shared sizes
+/*
+    font-size: fonts.$set1-size;
+    font-weight: fonts.$set1-weight;
+    line-height: fonts.$set1-lh;
+    letter-spacing: fonts.$set1-ls;
+*/
 
-// Font weights
+// ---------- Set 2
+$set2-size: util.rem(24);
+$set2-weight: 700;
+$set2-lh: auto;
+$set2-ls: 0%;
+
+/*
+    font-size: fonts.$set2-size;
+    font-weight: fonts.$set2-weight;
+    line-height: fonts.$set2-lh;
+    letter-spacing: fonts.$set2-ls;
+*/
+
+// ---------- Set 3
+$set3-size: util.rem(16);
+$set3-weight: 600;
+$set3-lh: auto;
+$set3-ls: 0%;
+
+/*
+    font-size: fonts.$set3-size;
+    font-weight: fonts.$set3-weight;
+    line-height: fonts.$set3-lh;
+    letter-spacing: fonts.$set3-ls;
+*/
+
+// ---------- Set 4
+$set4-size: util.rem(14);
+$set4-weight: 400;
+$set4-lh: auto;
+$set4-ls: 0%;
+
+/*
+    font-size: fonts.$set4-size;
+    font-weight: fonts.$set4-weight;
+    line-height: fonts.$set4-lh;
+    letter-spacing: fonts.$set4-ls;
+*/

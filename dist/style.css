@@ -1,3 +1,40 @@
+:root {
+  --red: #C73B0F;
+  --rose-900: #260F08;
+  --rose-500: #87635A;
+  --rose-400: #AD8A85;
+  --rose-300: #CAAFA7;
+  --rose-100: #F5EEEC;
+  --rose-50: #FCF8F6;
+  --green: #1EA575;
+  --black: #000000;
+  --white: #FFFFFF;
+}
+
+/*
+    font-size: fonts.$set1-size;
+    font-weight: fonts.$set1-weight;
+    line-height: fonts.$set1-lh;
+    letter-spacing: fonts.$set1-ls;
+*/
+/*
+    font-size: fonts.$set2-size;
+    font-weight: fonts.$set2-weight;
+    line-height: fonts.$set2-lh;
+    letter-spacing: fonts.$set2-ls;
+*/
+/*
+    font-size: fonts.$set3-size;
+    font-weight: fonts.$set3-weight;
+    line-height: fonts.$set3-lh;
+    letter-spacing: fonts.$set3-ls;
+*/
+/*
+    font-size: fonts.$set4-size;
+    font-weight: fonts.$set4-weight;
+    line-height: fonts.$set4-lh;
+    letter-spacing: fonts.$set4-ls;
+*/
 /* makes sizing simpler */
 *,
 *::before,
@@ -30,4 +67,8 @@ svg,
 video {
   display: block;
   max-width: 100%;
+}
+
+body {
+  font-family: "Red Hat Text", serif;
 }
