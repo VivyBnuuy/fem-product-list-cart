@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-    
+
     <link rel="icon" href="assets/images/favicon-32x32.png" />
     <link rel="stylesheet" href="dist/style.css">
 
@@ -19,12 +19,11 @@
       <div class="wrapper">
         <div class="contents">
 
-          <!-- Header -->
           <header>
             <h1 class="contents__header">Desserts</h1>
           </header>
 
-          <!-- Items container -->
+          <!-- Items container begin -->
           <div class="items-cont">
 
             <!-- Item begin -->
@@ -34,14 +33,35 @@
     
               </div>
     
-              <!-- Item button -->
+              <!-- Item button begin -->
               <div class="item__btn">
                 <svg class="item__btn-img">
                   <image xlink:href="assets/images/icon-add-to-cart.svg" width="128" height="128"></image>
                 </svg>
 
                 <span class="item__btn__add">Add to Cart</span>
+
+                <!-- Item button controls begin -->
+                <div class="item__btn__controls">
+
+                  <!-- Decrement -->
+                  <svg class="item__btn-img">
+                    <image xlink:href="assets/images/icon-decrement-quantity.svg" width="128" height="128"></image>
+                  </svg>
+
+                  <!-- Quantity -->
+                  <span class="item__btn__controls__quantity">1</span>
+
+                  <!-- Increment -->
+                  <svg class="item__btn-img">
+                    <image xlink:href="assets/images/icon-increment-quantity.svg" width="128" height="128"></image>
+                  </svg>
+
+                </div>
+                <!-- Item button controls end -->
+
               </div>
+              <!-- Item button end -->
     
               <!-- Item information -->
               <div class="item__info">
@@ -59,10 +79,10 @@
               </div>
 
             </div>
+            <!-- Item end -->
 
           </div>
-          
-          <!-- Item end -->
+          <!-- Items container end -->
 
           <!-- Cart begin -->
           <div class="cart">
@@ -80,13 +100,88 @@
               Your added items will appear here.
             </span>
 
-          </div>
+            <!-- Cart items begin -->
+            <div class="cart__item">
+              <span class="cart__item__name"></span>
+              <span class="cart__item__quantity"></span>
+              <span class="cart__item__cost-ind"></span>
+              <span class="cart__items__cost-total"></span>
 
-        <!-- contents end -->
+              <svg class="cart__item__remove--img">
+                <image xlink:href="assets/images/icon-remove-item.svg" width="128" height="128"></image>
+              </svg>
+  
+            </div>
+            <!-- Cart items end -->
+
+            <!-- Cart info begin -->
+            <div class="cart__total">
+              <span class="cart__total__span">Order Total</span>
+              <span class="cart__total__amount"></span>
+            </div>
+
+            <div class="cart__note">
+              <svg class="cart__note__img">
+                <image xlink:href="assets/images/icon-carbon-neutral.svg" width="128" height="128"></image>
+              </svg>
+
+              <span class="cart__note__span-reg">This is a</span>
+              <span class="cart__note__span-bold">carbon-neutral</span>
+              <span class="cart__note__span-reg">delivery</span>
+            </div>
+
+            <div class="cart__btn">
+              Confirm Order
+            </div>
+            <!-- Cart info end -->
+          </div>
+          <!-- cart end -->
+
+          <!-- Order confirmation begin-->
+          <div class="order-conf">
+            <svg class="order-conf__icon">
+              <image xlink:href="assets/images/icon-order-confirmed.svg" width="128" height="128"></image>
+            </svg>
+
+            <!-- Text -->
+            <span class="order-conf__span1">Order Confirmed</span>
+            <span class="order-conf__span2">We hope you enjoy your food!</span>
+
+            <!-- Items container begin -->
+            <div class="order-conf__items-cont">
+              <!-- Item begin-->
+              <div class="order-conf__item">
+                <img src="" class="order-conf__item__img" alt="">
+                <span class="order-conf__item__label"></span>
+                <span class="order-conf__item__quantity"></span>
+                <span class="order-conf__item__cost"></span>
+                <span class="order-conf__item__total"></span>
+              </div>
+              <!-- Item end -->
+
+              <!-- Total begin -->
+              <span class="order-conf__total">Order Total</span>
+              <span class="order-conf__cost">$</span>
+              <!-- Total end -->
+
+              <!-- New order button -->
+              <div class="order-conf__new-btn">
+                Start New Order
+              </div>
+
+            </div>
+            <!-- Items container end -->
+
+
+            <!-- Items end -->
+          </div>
+          <!-- Order confirmation end -->
+
         </div>
+        <!-- contents end -->
       
-      <!-- wrapper end -->
       </div>
+      <!-- wrapper end -->
     </main>
     <script src="dist/js/main.js"></script>
   </body>
